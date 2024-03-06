@@ -21,7 +21,7 @@ export default function Hero() {
               <a
                 href={resume}
                 download="ABRERA, REIN, D. - Resume"
-                className="flex items-center"
+                className="flex items-center flex-center"
               >
                 Download my CV 
                 <YourSvg />
@@ -30,7 +30,7 @@ export default function Hero() {
           </div>
           <div className="projects-btn">
             <Button>
-              <a href="#projects" className="flex items-center">
+              <a href="#projects" className="flex items-center flex-center">
                 See my projects <DownArrow />
               </a>
             </Button>
