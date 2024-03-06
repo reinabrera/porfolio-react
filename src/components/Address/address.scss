@@ -1,0 +1,21 @@
+.address {
+  img {
+    @media screen and (max-width: 959px) {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  span {
+    color: var(--white-25);
+    font-weight: 700;
+    margin-left: 16px;
+  }
+  .email {
+    a {
+      text-decoration: underline;
+    }
+  }
+  .location {
+    margin-top: 0.8rem;
+  }
+}

@@ -1,0 +1,18 @@
+.socials {
+  margin-left: -1.6rem;
+  & > div {
+    padding-left: 1.6rem;
+  }
+  a {
+    display: block;
+    font-size: 0;
+    img {
+      transition: all 0.3s;
+    }
+    &:hover {
+      img {
+        opacity: 0.75;
+      }
+    }
+  }
+}

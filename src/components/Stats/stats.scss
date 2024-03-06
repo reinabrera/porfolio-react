@@ -1,0 +1,59 @@
+.stats {
+  @media screen and (min-width: 640px) {
+    margin-left: -3.2rem;
+    .stat-item {
+      padding-left: 3.2rem;
+    }
+  }
+  @media screen and (min-width: 960px) {
+    margin-left: -6.4rem;
+    .stat-item {
+      padding-left: 6.4rem;
+    }
+  }
+  .stat-item {
+    width: 33.33%;
+    &--wrapper {
+      text-align: center;
+      border: 1px solid var(--white-75);
+      transition: all 0.3s;
+      border-radius: .8rem;
+      padding: .8rem 1.6rem;
+      width: 100%;
+      &:hover {
+        border: 1px solid var(--hover);
+        div {
+          color: var(--hover);
+        }
+        span {
+          color: var(--white-75);
+        }
+      }
+      span {
+        color: var(--white-50);
+        transition: all 0.3s;
+      }
+      div {
+        font-size: 48px;
+        font-family: "Poppins";
+        font-weight: 700;
+        color: var(--primary);
+        transition: all 0.3s;
+      }
+    }
+  }
+  @media screen and (max-width: 639px) {
+    display: block;
+    .stat-item {
+      width: 100%;
+      max-width: 15.6rem;
+      &--wrapper div {
+        font-size: 33px;
+      }
+      &:not(:first-child) {
+        margin-top: 1.6rem;
+      }
+    }
+  }
+}
+

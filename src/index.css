@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  font-size: 62.5%;
+  font-family: "Noto Sans";
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+div, input, textarea, a {
+  box-sizing: border-box;
+}
+
+button {
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+:root {
+  --bg-primary: #1F1D1D;
+  --bg-secondary: #191818;
+  --primary: #D33939;
+  --primary-75: #A73232;
+  --primary-50: #7A2C2C;
+  --white: #F4F4F4;
+  --white-75: #BFBEBE;
+  --white-50: #8A8989;
+  --white-25: #545353;
+  --white-10: #343232;
+  --white-5: #292828;
+  --hover: #C9FCE9;
+  --black: #19221D;
+}
+

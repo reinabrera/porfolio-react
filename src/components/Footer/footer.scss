@@ -1,0 +1,13 @@
+footer.footer {
+  padding: 3.2rem 0;
+
+  @media screen and (min-width: 960px) {
+    padding: 6.4rem 0;
+
+  }
+  background-color: var(--bg-primary);
+  span {
+    font-family: "Noto Sans";
+    color: var(--white-75);
+  }
+}

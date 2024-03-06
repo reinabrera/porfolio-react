@@ -1,0 +1,127 @@
+.projects {
+  background-color: var(--bg-primary);
+  @media screen and (min-width: 960px) {
+    scroll-margin-top: -10rem;
+
+  }
+  .hidden {
+    display: none;
+  }
+
+  @keyframes popup {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+
+  .projects-items {
+    margin-top: 6.4rem;
+    flex-wrap: wrap;
+    margin-left: -1.6rem;
+    @media screen and (min-width: 960px) {
+      margin-top: 9.6rem;
+    }
+    .item {
+      padding-left: 1.6rem;
+    }
+    @media screen and (max-width: 639px) {
+      .item:not(:first-child) {
+        margin-top: 1.6rem;
+      }
+    }
+    @media screen and (max-width: 959px) {
+      .item:nth-child(n+3) {
+        margin-top: 1.6rem;
+      }
+    }
+    @media screen and (min-width: 640px) {
+      .item {
+        width: 50%;
+      }
+    }
+    @media screen and (min-width: 960px) {
+      margin-left: -3.2rem;
+      .item {
+        padding-left: 3.2rem;
+        width: 33.3333%;
+      }
+    }
+    .item {
+      .content {
+        background-color: var(--white-5);
+        .featured-img--wrapper {
+          height: 30rem;
+          @media screen and (min-width: 960px) {
+            height: 40rem;
+          }
+          .featured-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top left;
+          }
+          .overlay {
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #191818CC;
+            flex-direction: column;
+            animation: popup 0.15s ease-in-out forwards;
+            .links--wrapper {
+              padding-bottom: 1.6rem;
+              border-bottom: 1px solid var(--white-50);
+              .links {
+                margin-left: -.8rem;
+                .link--wrapper {
+                  padding-left: .8rem;
+                  a {
+                    display: block;
+                    font-size: 0;
+                    img {
+                      transition: 0.3s all;
+                    }
+                    &:hover {
+                      img {
+                        opacity: 0.7;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .skills-used {
+              margin-top: 1.6rem;
+              margin-left: -.8rem;
+              .img {
+                padding-left: 0.8rem;
+                img {
+                  max-width: 3.2rem;
+                }
+              }
+            }
+          }
+        }
+        
+        .wrapper {
+          padding: 1.6rem;
+          .project-title {
+            font-weight: 400;
+            font-family: "Poppins";
+            margin: 0;
+          }
+          .description {
+            margin-top: .8rem;
+            color: var(--white-75);
+            margin-bottom: 0;
+          }
+        }
+
+        
+      }
+    }
+  }
+}
