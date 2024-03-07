@@ -37,7 +37,7 @@ export default function Projects() {
       description:
         "This Todo App project is a template from Angela Yu's Web Development bootcamp. Primarly focuses in front-end development with React.js, this project helped me explore and learn the developmental process of React.js",
       skills: [react],
-      preview: "https://todo-react-q6ufksrl1-reins-projects-dcb38f74.vercel.app/",
+      preview: "https://todo-react-app-ebon.vercel.app/",
       code: "https://github.com/reinabrera/todo-react-app",
     },
   ];
