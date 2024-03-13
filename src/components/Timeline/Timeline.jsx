@@ -28,7 +28,7 @@ export default function Timeline() {
     },
     {
       date: "September 2018 - February 2023",
-      description: "Graduate with a Bachelor of Science in Computer Engineer",
+      description: "Graduate with a Bachelor of Science in Computer Engineering",
       company_name: "FEU Alabang",
       company_logo: FeuLogo,
       icon: Graduate,
