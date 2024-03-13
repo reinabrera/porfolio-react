@@ -5,7 +5,7 @@ import linkedin from "../../assets/linkedin.svg";
 export default function Socials() {
   const data = [
     { img: github, url: "https://github.com/reinabrera/" },
-    { img: linkedin, url: "" },
+    { img: linkedin, url: "https://www.linkedin.com/in/abrerarein/" },
   ];
   return (
     <div className="socials flex items-center">
