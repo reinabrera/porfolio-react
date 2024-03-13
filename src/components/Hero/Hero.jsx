@@ -20,10 +20,10 @@ export default function Hero() {
             <Button>
               <a
                 href={resume}
-                download="ABRERA, REIN, D. - Resume"
                 className="flex items-center flex-center"
+                download="renamed.pdf"
               >
-                Download my CV 
+                Download my Resume 
                 <YourSvg />
               </a>
             </Button>

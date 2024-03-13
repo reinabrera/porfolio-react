@@ -47,9 +47,17 @@
       .item {
         padding-left: 3.2rem;
         width: 33.3333%;
+        &:nth-child(n+4) {
+          margin-top: 3.2rem;
+        }
       }
     }
     .item {
+      &:nth-child(2) {
+        .featured-img {
+          object-position: center !important;
+        }
+      }
       .content {
         background-color: var(--white-5);
         .featured-img--wrapper {

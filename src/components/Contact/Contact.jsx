@@ -76,7 +76,7 @@ export default function Contact() {
                   download="ABRERA, REIN, D. - Resume"
                   className="flex items-center"
                 >
-                  Download my CV <Download />
+                  Download my Resume <Download />
                 </a>
               </Button>
             </div>
