@@ -73,13 +73,14 @@
               position: absolute;
               top: 50%;
               transform: translateY(-50%);
-              left: -1.75rem;
+              left: -2.50rem;
               pointer-events: none;
               @media screen and (max-width: 960px) {
                 svg {
                   width: 32px;
                   height: 32px;
                 }
+                left: -1.75rem;
               }
             }
             &:hover {
