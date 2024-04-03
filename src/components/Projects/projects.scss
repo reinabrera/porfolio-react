@@ -53,11 +53,11 @@
       }
     }
     .item {
-      &:nth-child(2) {
-        .featured-img {
-          object-position: center !important;
-        }
+
+      .featured-img.center {
+        object-position: center !important;
       }
+      
       .content {
         background-color: var(--white-5);
         .featured-img--wrapper {

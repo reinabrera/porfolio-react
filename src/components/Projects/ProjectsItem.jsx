@@ -54,7 +54,7 @@ export default function ProjectsItem({ data }) {
             </div>
           </div>
           <img
-            className="featured-img"
+            className={`featured-img ${data.customCss ? data.customCss : ''}`}
             src={data.img}
             alt={data.name + " " + "image"}
           />

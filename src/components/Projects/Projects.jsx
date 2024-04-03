@@ -9,6 +9,7 @@ import postgre from "../../assets/postgre.png";
 import udemyClone from "../../assets/udemy-clone.png";
 import simpleAnimeBrowser from "../../assets/simple-anime-browser.png";
 import secretsCrud from "../../assets/secrets-crud.png"
+import snakeGame from "../../assets/snake-game.png";
 import todoApp from "../../assets/todo-app.png";
 import ProjectsItem from "./ProjectsItem";
 
@@ -31,6 +32,7 @@ export default function Projects() {
       skills: [html, css, javascript, react, node, postgre],
       preview: "https://secrets-client.vercel.app/",
       code: "https://github.com/reinabrera/secrets-crud-app",
+      customCss: "center",
     },
     {
       name: "Simple Anime Browser",
@@ -50,6 +52,16 @@ export default function Projects() {
       preview: "https://todo-react-app-ebon.vercel.app/",
       code: "https://github.com/reinabrera/todo-react-app",
     },
+    {
+      name: "Snake Game",
+      img: snakeGame,
+      description: 
+        "Created a snake game app using JavaScript/TypeScript and implemented the game logic using Object-Oriented Programming (OOP) principles.",
+      skills: [javascript],
+      preview: "https://snake-game-two-lemon.vercel.app",
+      code: "https://github.com/reinabrera/snake-game",
+      customCss: "center",
+    }
   ];
   return (
     <div id="projects" className="projects spacing">
