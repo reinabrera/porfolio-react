@@ -15,6 +15,8 @@ import postgre from "../../assets/postgre.png";
 import figma from "../../assets/figma.png";
 import passport from "../../assets/passport.js.png";
 import SkillsItems from "./SkillsItem";
+import typescript from "../../assets/typescript.webp";
+import webpack from "../../assets/webpack.png";
 
 export default function Skills() {
   const data = [
@@ -26,9 +28,11 @@ export default function Skills() {
     { name: "Node.js", img: node },
     { name: "React.js", img: react },
     { name: "WordPress", img: wp },
+    { name: "TypeScript", img: typescript},
     { name: "PHP", img: php },
     { name: "Python", img: python },
     { name: "Passport.js", img: passport},
+    { name: "Webpack", img: webpack},
     { name: "Tailwind CSS", img: tailwind },
     { name: "UIkit", img: uikit },
     { name: "PostgreSQL", img: postgre },
