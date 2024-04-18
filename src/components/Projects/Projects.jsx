@@ -34,15 +34,15 @@ export default function Projects() {
       code: "https://github.com/reinabrera/secrets-crud-app",
       customCss: "center",
     },
-    {
-      name: "Simple Anime Browser",
-      img: simpleAnimeBrowser,
-      description:
-        "This project is a simple anime browser that lets you search anime, shows the top upcoming anime and the top anime for the last 365 days. This project primarily focuses in front-end development with EJS rendering and express for API fetching.",
-      skills: [html, css, javascript, node],
-      preview: "https://simple-anime-browse.adaptable.app/",
-      code: "https://github.com/reinabrera/simple-anime-browse",
-    },
+    // {
+    //   name: "Simple Anime Browser",
+    //   img: simpleAnimeBrowser,
+    //   description:
+    //     "This project is a simple anime browser that lets you search anime, shows the top upcoming anime and the top anime for the last 365 days. This project primarily focuses in front-end development with EJS rendering and express for API fetching.",
+    //   skills: [html, css, javascript, node],
+    //   preview: "https://simple-anime-browse.adaptable.app/",
+    //   code: "https://github.com/reinabrera/simple-anime-browse",
+    // },
     {
       name: "Todo/Keeper App",
       img: todoApp,
