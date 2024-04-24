@@ -11,6 +11,7 @@ import simpleAnimeBrowser from "../../assets/simple-anime-browser.png";
 import secretsCrud from "../../assets/secrets-crud.png"
 import snakeGame from "../../assets/snake-game.png";
 import todoApp from "../../assets/todo-app.png";
+import vite from "../../assets/vite.png";
 import ProjectsItem from "./ProjectsItem";
 
 export default function Projects() {
@@ -29,7 +30,7 @@ export default function Projects() {
       img: secretsCrud,
       description:
         "Developed and deployed a full stack CRUD web application for sharing secret/confession. Implemented user registration, login and utilized JWT for authentication and security, as well as bcrypt for hashing user passwords. Integrated the backend using RESTful, CRUD, PostgreSQL for main functionality, and CronJobs for automating the deletion of entries. Utilized React.js with Vite for the front-end to create interactive UI for the end-user.",
-      skills: [html, css, javascript, react, node, postgre],
+      skills: [html, css, javascript, vite, react, node, postgre],
       preview: "https://secrets-client.vercel.app/",
       code: "https://github.com/reinabrera/secrets-crud-app",
       customCss: "center",

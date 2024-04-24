@@ -17,6 +17,7 @@ import passport from "../../assets/passport.js.png";
 import SkillsItems from "./SkillsItem";
 import typescript from "../../assets/typescript.webp";
 import webpack from "../../assets/webpack.png";
+import vite from "../../assets/vite.png";
 
 export default function Skills() {
   const data = [
@@ -27,6 +28,7 @@ export default function Skills() {
     { name: "Git", img: git },
     { name: "Node.js", img: node },
     { name: "React.js", img: react },
+    { name: "Vite", img: vite},
     { name: "WordPress", img: wp },
     { name: "TypeScript", img: typescript},
     { name: "PHP", img: php },
