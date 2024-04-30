@@ -18,7 +18,7 @@ export default function AboutMe() {
         <h2 className="section-title font-display">About Me</h2>
         <div className="wrapper">
           <p className="greetings base">
-            Greetings! I’m Rein Abrera, a Front-end React.js Developer
+            Greetings! I’m Rein Abrera, a Web Developer
           </p>
           <div className="flex content-wrapper">
             <div className="content base">
@@ -27,7 +27,7 @@ export default function AboutMe() {
                 building and maintaining numerous WordPress websites. My journey
                 in web development has led me to specialize in creating dynamic
                 and interactive websites using PHP, CSS/SASS, JS, and, just
-                recently, diving into React.js to fully expand my skills and
+                recently, diving into other framework, languages and tools such as React, C#, ASP.NET and TypeScript to fully expand my skills and
                 knowledge in web development.
               </p>
               <p>
