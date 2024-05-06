@@ -9,11 +9,10 @@ export default function Hero() {
     <div className="hero">
       <div className="container mx-auto text-center">
         <span className="tag small">Hey there, I’m Rein</span>
-        <h1 className="title font-display">Front-end React.js Developer</h1>
+        <h1 className="title font-display">Software Developer</h1>
         <p className="description base mx-auto">
           I’m passionate about building interactive and responsive websites. My
-          current focus lies in mastering and exploring React.js for frontend
-          web development.
+          current focus lies in mastering and exploring React.js, Node.js, C#/ASP.NET, and more for software development.
         </p>  
         <div className="hero-btns flex flex-center">
           <div className="download-btn">
