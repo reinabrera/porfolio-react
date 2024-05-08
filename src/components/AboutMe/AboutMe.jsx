@@ -18,7 +18,7 @@ export default function AboutMe() {
         <h2 className="section-title font-display">About Me</h2>
         <div className="wrapper">
           <p className="greetings base">
-            Greetings! I’m Rein Abrera, a Web Developer
+            Greetings! I’m Rein Abrera, a Software Developer
           </p>
           <div className="flex content-wrapper">
             <div className="content base">
