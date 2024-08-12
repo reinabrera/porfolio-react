@@ -20,6 +20,8 @@ import webpack from "../../assets/webpack.png";
 import vite from "../../assets/vite.png";
 import cs from "../../assets/cs_logo.png";
 import dotnet from "../../assets/asp_net_logo.png";
+import efcore from "../../assets/ef_core.png";
+import bootstrap from "../../assets/bootstrap.png";
 
 export default function Skills() {
   const data = [
@@ -33,9 +35,11 @@ export default function Skills() {
     { name: "Vite", img: vite},
     { name: "C#", img: cs},
     { name: "ASP.NET", img: dotnet},
+    { name: "EF Core", img: efcore},
     { name: "WordPress", img: wp },
     { name: "TypeScript", img: typescript},
     { name: "Webpack", img: webpack},
+    { name: "Bootstrap", img: bootstrap},
     { name: "Tailwind CSS", img: tailwind },
     { name: "UIkit", img: uikit },
     { name: "PostgreSQL", img: postgre },

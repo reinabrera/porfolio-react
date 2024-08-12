@@ -11,11 +11,25 @@ import simpleAnimeBrowser from "../../assets/simple-anime-browser.png";
 import secretsCrud from "../../assets/secrets-crud.png"
 import snakeGame from "../../assets/snake-game.png";
 import todoApp from "../../assets/todo-app.png";
+import ecommerce from "../../assets/ecommerce.png";
 import vite from "../../assets/vite.png";
+import efcore from "../../assets/ef_core.png";
+import cs from "../../assets/cs_logo.png";
+import dotnet from "../../assets/asp_net_logo.png";
+import bootstrap from "../../assets/bootstrap.png";
 import ProjectsItem from "./ProjectsItem";
 
 export default function Projects() {
   const data = [
+    {
+      name: "ECommerce",
+      img: ecommerce,
+      description:
+        "Developed an eCommerce website using C#, ASP.NET, and EF Core, focusing on both front-end and back-end development. This webapp also includes admin dashboard for creating, updating, and deleting of entity rows such as for product, team members, and more. Both the webapp and database are currently deployed in Microsoft Azure.",
+      skills: [cs, dotnet, efcore, html,css, javascript, bootstrap],
+      preview: "https://ecommerce220240812195745.azurewebsites.net/",
+      code: "https://github.com/reinabrera/ECommerce",
+    },
     {
       name: "Udemy Clone",
       img: udemyClone,

@@ -27,7 +27,7 @@ export default function AboutMe() {
                 building and maintaining numerous WordPress websites. My journey
                 in web development has led me to specialize in creating dynamic
                 and interactive websites using PHP, CSS/SASS, JS, and, just
-                recently, diving into other framework, languages and tools such as React, C#, ASP.NET, TypeScript, and more to fully expand my skills and
+                recently, diving into other framework, languages and tools such as  C#, ASP.NET, EF Core, and more to fully expand my skills and
                 knowledge in web development.
               </p>
               <p>
