@@ -34,7 +34,7 @@ export default function Skills() {
     { name: "React.js", img: react },
     { name: "Vite", img: vite},
     { name: "C#", img: cs},
-    { name: "ASP.NET", img: dotnet},
+    { name: "ASP.NET Core", img: dotnet},
     { name: "EF Core", img: efcore},
     { name: "WordPress", img: wp },
     { name: "TypeScript", img: typescript},
