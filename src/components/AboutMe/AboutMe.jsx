@@ -7,7 +7,7 @@ import Stats from "../Stats/Stats";
 
 export default function AboutMe() {
   const data = [
-    { count: 10, text: "Months Work Experience" },
+    { count: 1, text: "Years Work Experience" },
     { count: 5, text: "Company Projects" },
     { count: 5, text: "Personal Projects" },
   ];

@@ -11,8 +11,7 @@ export default function Hero() {
         <span className="tag small">Hey there, I’m Rein</span>
         <h1 className="title font-display">Software Developer</h1>
         <p className="description base mx-auto">
-          I’m passionate about building interactive and responsive websites. My
-          current focus lies in mastering and exploring C#, ASP.NET, EF Core, and more for software development.
+          I’m passionate about building interactive and responsive websites. My current focus is on mastering and exploring C#, ASP.NET, EF Core, and more for software development.
         </p>  
         <div className="hero-btns flex flex-center">
           <div className="download-btn">
