@@ -37,7 +37,7 @@ export default function Skills() {
     { name: "React.js", img: react },
     { name: "Vite", img: vite},
     { name: "WordPress", img: wp },
-    { name: "TypeScript", img: typescript},
+    // { name: "TypeScript", img: typescript},
     { name: "Webpack", img: webpack},
     { name: "Bootstrap", img: bootstrap},
     { name: "Tailwind CSS", img: tailwind },
