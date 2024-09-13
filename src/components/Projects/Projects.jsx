@@ -82,6 +82,9 @@ export default function Projects() {
     <div id="projects" className="projects spacing">
       <div className="container mx-auto">
         <h2 className="section-title">Personal Projects</h2>
+        <div className="base">
+          <p>List of personal projects I made during my unemployment and upskilling period. These projects reflect my commitment to continous learning, exploring various technologies, and building solutions to sharpen my skills and knowledge in software development.</p>
+        </div>
         <div className="projects-items flex">
           {data.map((project, index) => {
             return <ProjectsItem key={"project-item-" + index} data={project} />

@@ -4,6 +4,12 @@
     scroll-margin-top: -10rem;
 
   }
+
+  .base {
+    p {
+      color: var(--white-75);
+    }
+  }
   .hidden {
     display: none;
   }
