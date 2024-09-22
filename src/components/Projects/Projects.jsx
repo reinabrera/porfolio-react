@@ -25,9 +25,9 @@ export default function Projects() {
       name: "ECommerce",
       img: ecommerce,
       description:
-        "Developed an eCommerce website using C#, ASP.NET Core, and EF Core, focusing on both front-end and back-end development. This webapp also includes admin dashboard for creating, updating, and deleting of entity rows such as for product, team members, and more. Both the webapp and database are currently deployed in Microsoft Azure.",
+        "Developed an eCommerce website using C#, ASP.NET Core, and EF Core, focusing on both front-end and back-end development. This webapp also includes admin dashboard for creating, updating, and deleting of entity rows such as for product, team members, product variants, and more. Both the webapp and database are currently deployed in AWS.",
       skills: [cs, dotnet, efcore, html,css, javascript, bootstrap],
-      preview: "https://ecommerce220240812195745.azurewebsites.net/",
+      preview: "http://ecommerce2-dev.eba-dikha2vy.ap-southeast-1.elasticbeanstalk.com/",
       code: "https://github.com/reinabrera/ECommerce",
     },
     {
