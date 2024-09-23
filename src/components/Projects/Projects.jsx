@@ -27,7 +27,7 @@ export default function Projects() {
       description:
         "Developed an eCommerce website using C#, ASP.NET Core, and EF Core, focusing on both front-end and back-end development. This webapp also includes admin dashboard for creating, updating, and deleting of entity rows such as for product, team members, product variants, and more. Both the webapp and database are currently deployed in AWS.",
       skills: [cs, dotnet, efcore, html,css, javascript, bootstrap],
-      preview: "http://ecommerce2-dev.eba-dikha2vy.ap-southeast-1.elasticbeanstalk.com/",
+      preview: "https://ecommercedotnet.reindev.online/",
       code: "https://github.com/reinabrera/ECommerce",
     },
     {
@@ -36,7 +36,7 @@ export default function Projects() {
       description:
         "This project is a simple udemy clone webapp that primarily focused on the front-end development. React.js fundamentals were explored and applied throughout the development process. Additionaly, Tailwind CSS was exlored and utilized for the CSS framework used in this project. ",
       skills: [html, css, javascript, react, tailwind],
-      preview: "https://udemy-clone-kappa.vercel.app/",
+      preview: "https://udemy-clone.reindev.online/",
       code: "https://github.com/reinabrera/udemy-clone",
     },
     {
@@ -45,7 +45,7 @@ export default function Projects() {
       description:
         "Developed and deployed a full stack CRUD web application for sharing secret/confession. Implemented user registration, login and utilized JWT for authentication and security, as well as bcrypt for hashing user passwords. Integrated the backend using RESTful, CRUD, PostgreSQL for main functionality, and CronJobs for automating the deletion of entries. Utilized React.js with Vite for the front-end to create interactive UI for the end-user.",
       skills: [html, css, javascript, vite, react, node, postgre],
-      preview: "https://secrets-client.vercel.app/",
+      preview: "https://secrets.reindev.online/",
       code: "https://github.com/reinabrera/secrets-crud-app",
       customCss: "center",
     },
@@ -64,7 +64,7 @@ export default function Projects() {
       description:
         "This Todo App project is a template from Angela Yu's Web Development bootcamp. Primarly focuses in front-end development with React.js, this project helped me explore and learn the developmental process of React.js",
       skills: [react],
-      preview: "https://todo-react-app-ebon.vercel.app/",
+      preview: "https://todo.reindev.online/",
       code: "https://github.com/reinabrera/todo-react-app",
     },
     {
@@ -73,7 +73,7 @@ export default function Projects() {
       description: 
         "Created a snake game app using JavaScript/TypeScript and implemented the game logic using Object-Oriented Programming (OOP) principles.",
       skills: [javascript],
-      preview: "https://snake-game-two-lemon.vercel.app",
+      preview: "https://snake-game.reindev.online/",
       code: "https://github.com/reinabrera/snake-game",
       customCss: "center",
     }
